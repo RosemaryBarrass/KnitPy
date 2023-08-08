@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "knitpy_Rosemary_Barrass"
+version = "0.0.1"
+authors = [
+  { name="Rosemary Barrass", email="rosiebarrass@gmail.com" },
+]
+description = "A tool for resizing knit patterns according to gauge."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RosemaryBarrass/KnitPy"
+"Bug Tracker" = "https://github.com/RosemaryBarrass/KnitPy/issues"
